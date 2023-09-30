@@ -40,11 +40,11 @@ def getConfig(configList:list, section:str='DEFAULT', configFilePath:str = 'conf
     config = configparser.ConfigParser()
     try:
         config.read(configFilePath,encoding='cp949')
-        resList = [ config['DEFAULT'][x] for x in configList]
+        resList = [ config[section][x] for x in configList]
     except UnicodeDecodeError:
         try:
             config.read(configFilePath,encoding='utf-8')
-            resList = [ config['DEFAULT'][x] for x in configList]
+            resList = [ config[section][x] for x in configList]
         except:
             print(f'{configFilePath} 파일 오류')
             sys.exit()

@@ -6,7 +6,7 @@
 - 메인파일: main.py
 
 > [원신 위키](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)에서 캐릭터별 이미지 다운로드
-- input: 캐릭터 이름 (한글)
+- input: 캐릭터 이름 (한글)을 엔터로 구분
 - output: 이미지 종류를 폴더명으로해서 하위에 이미지 저장
 
 > 작성 동기

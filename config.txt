@@ -1,0 +1,9 @@
+[DEFAULT]
+imageType = _Wish
+
+
+[EXAMPLE]
+아이콘 = _Icon
+아이템 = _Item
+기원일러 = _Wish
+명함배경 = Namecard_Background_

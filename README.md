@@ -2,8 +2,8 @@
 > 파이썬 크롤러 예제
 
 - 작성일: 230929
-- 최종수정일: 230930
-- 메인파일: main.py
+- 최종수정일: 230931
+- 메인파일: GenshinImpactWikiCrawler.py
 
 > [원신 위키](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)에서 캐릭터별 이미지 다운로드
 - input: 캐릭터 이름 (한글)을 엔터로 구분
